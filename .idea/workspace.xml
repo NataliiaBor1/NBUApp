@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45580a88-2c99-4373-903d-4dafd9fc32d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Academic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/NBUApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/SignUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBClear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/init.sql" afterDir="false" />
-    </list>
+    <list default="true" id="45580a88-2c99-4373-903d-4dafd9fc32d6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="studentTable" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -51,14 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/netbo/IdeaProjects/NBUApp&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/netbo/IdeaProjects/NBUApp"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.NBUApp">
     <configuration name="NBUApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nbuapp.NBUApp" />
@@ -102,6 +84,14 @@
       <option name="presentableId" value="Default" />
       <updated>1694559047307</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1697092395848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697092395848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
