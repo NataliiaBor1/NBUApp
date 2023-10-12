@@ -102,4 +102,5 @@ public class Student extends Academic {
         DBUtils.insertStudent(student);
         students = DBUtils.getTableStudentData();
     }
+
 }

@@ -24,4 +24,5 @@ public interface IExit {
         System.out.println("Sorry, we can not recognize you");
         System.exit(0);
     }
+
 }
