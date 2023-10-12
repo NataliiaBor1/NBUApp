@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45580a88-2c99-4373-903d-4dafd9fc32d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Academic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/NBUApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/SignUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBClear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/IExit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/IPrintAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Academic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Academic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/init.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

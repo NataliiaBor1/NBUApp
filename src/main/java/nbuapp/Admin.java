@@ -4,20 +4,24 @@ import nbuapp.database.DBUtils;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
-public class Admin extends Person {
+public class Admin extends Person implements IPrintAdmin, IExit {
 
     private String id = "A";
     private static int adminId = 1000001;
     private int tblAdminId;
     private int tblAdminPersonId;
-    private static List<Admin> admins = new ArrayList<>();
+    public static List<Admin> admins = new ArrayList<>();
     private static int idAdmin = 1;
 
     public Admin(String firstName, String lastName) {
         super(firstName, lastName);
         this.id = id + adminId;
         adminId++;
+        this.tblAdminId = idAdmin;
+        idAdmin++;
+        this.tblAdminPersonId = getTblPersonId();
     }
 
     public Admin() {};
@@ -61,8 +65,8 @@ public class Admin extends Person {
     }
 
     public static void addAdmin(Admin admin) {
-        admins.add(admin);
-        DBUtils.createAdmin(admin);
+        DBUtils.insertAdmin(admin);
+        admins = DBUtils.getTableAdminData();
     }
 
     public static void printAdmins() {
@@ -71,7 +75,7 @@ public class Admin extends Person {
             System.out.println(admin.getFirstName());
             System.out.println(admin.getLastName());
             System.out.println(admin.getPassword());
-            System.out.println(admin.getUsername());
+            System.out.println(admin.getUserName());
             System.out.println(admin.id);
         }
     }
@@ -80,7 +84,79 @@ public class Admin extends Person {
         return admins;
     }
 
-    public static void runAdmin() {
+    public void runAdmin() {
+        printQForExit();
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Would you like");
+        System.out.println("1 - Register new user");
+        System.out.println("2 - Print existing data");
+
+        String input = in.nextLine();
+
+        switch (input) {
+            case "Q", "q" -> {
+                exitIfQ();
+            }
+            case "1" -> runRegistration();
+            case "2" -> runPrintInformation();
+        }
+
+    }
+
+    private void runRegistration() {
+        System.out.println("Running registration");
+        printQForExit();
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Would you like");
+        System.out.println("1 - Register new Student");
+        System.out.println("1 - Register new Professor");
+        System.out.println("1 - Register new Admin");
+
+        String input = in.nextLine();
+
+        switch (input) {
+            case "Q", "q" -> {
+                exitIfQ();
+            }
+            case "1" -> runRegisterNewStudent();
+            case "2" -> runRegisterNewProfessor();
+            case "3" -> runRegisterNewAdmin();
+        }
+
+    }
+
+    private void runPrintInformation() {
+        System.out.println("Running Print information");
+        printQForExit();
+    }
+
+    private void runRegisterNewStudent() {
+        System.out.println("Register New Student");
+        printQForExit();
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter first name");
+        String input = in.nextLine();
+        exitIfQ();
+        String firstName = input;
+
+        System.out.println("Enter last name");
+        input = in.nextLine();
+        exitIfQ();
+        String lastName = input;
+
+    }
+
+    private void runRegisterNewProfessor() {
+
+    }
+
+    private void runRegisterNewAdmin() {
 
     }
 
