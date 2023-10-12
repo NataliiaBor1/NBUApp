@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -70,6 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NBUApp1" />
+        <item itemvalue="Application.NBUApp" />
         <item itemvalue="Application.NBUApp" />
         <item itemvalue="Application.NBUApp1" />
       </list>
