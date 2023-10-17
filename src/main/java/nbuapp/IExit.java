@@ -4,7 +4,7 @@ public interface IExit {
 
     default void printQForExit() {
         System.out.println();
-        System.out.println("Enter 'Q' for quit OR");
+        System.out.println("Enter 'Q' for quit OR...");
         System.out.println();
     }
 

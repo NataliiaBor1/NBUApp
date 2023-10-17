@@ -51,7 +51,7 @@ public class SignUp implements IExit {
         exitIfAuthorizedUser();
     }
 
-    public void runAJUApp() {
+    public void runNBUApp() {
         printWelcomeMessage();
         signUp();
     }

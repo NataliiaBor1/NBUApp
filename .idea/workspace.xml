@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45580a88-2c99-4373-903d-4dafd9fc32d6" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/TableName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/TablesFields.java" afterDir="false" />
+    <list default="true" id="45580a88-2c99-4373-903d-4dafd9fc32d6" name="Changes" comment="commit with last changes 10/16/2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Academic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Academic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/IExit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/IExit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/IPrintAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/IPrintAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Professor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBClear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBClear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/init.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697092395848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit with last changes 10/16/2023">
+      <created>1697520580329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697520580329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="commit with last changes 10/16/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit with last changes 10/16/2023" />
   </component>
 </project>
