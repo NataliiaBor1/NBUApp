@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45580a88-2c99-4373-903d-4dafd9fc32d6" name="Changes" comment="" />
+    <list default="true" id="45580a88-2c99-4373-903d-4dafd9fc32d6" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/TableName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/TablesFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Academic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Academic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/IExit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/IExit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/IPrintAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/IPrintAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBClear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBClear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nbuapp/database/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/init.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,13 +54,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/netbo/IdeaProjects/NBUApp"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/netbo/IdeaProjects/NBUApp&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.NBUApp">
     <configuration name="NBUApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nbuapp.NBUApp" />
@@ -71,8 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NBUApp1" />
         <item itemvalue="Application.NBUApp" />
+        <item itemvalue="Application.NBUApp1" />
         <item itemvalue="Application.NBUApp" />
         <item itemvalue="Application.NBUApp1" />
       </list>

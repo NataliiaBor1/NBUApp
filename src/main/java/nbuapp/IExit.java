@@ -4,7 +4,7 @@ public interface IExit {
 
     default void printQForExit() {
         System.out.println();
-        System.out.println("Enter 'Q' for quit");
+        System.out.println("Enter 'Q' for quit OR");
         System.out.println();
     }
 
@@ -21,7 +21,8 @@ public interface IExit {
     }
 
     default void exitIfAuthorizedUser() {
-        System.out.println("Sorry, we can not recognize you");
+        System.out.println("Sorry, we can not recognize you. Check your credentials and try again later.");
+        System.out.println("Goodbye");
         System.exit(0);
     }
 
